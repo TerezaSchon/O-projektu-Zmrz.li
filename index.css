@@ -10,11 +10,11 @@ html {
 body {
   color: white;
   background-color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 5rem;
   letter-spacing: 0.5rem;
   text-align: center;
@@ -25,6 +25,7 @@ h2 {
   font-size: 1rem;
   margin: 0;
   padding: 1.5rem 1.5rem 1.5rem 1rem;
+  text-decoration: none;
 }
 main {
   max-width: 40rem;
@@ -52,7 +53,7 @@ p {
   text-align: center;
   font-size: 1.5rem;
   font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: rgb(31, 29, 29);
   margin-top: 0;
 }
@@ -77,4 +78,9 @@ button {
   display: flex;
   justify-content: center;
   margin-left: 3rem;
+}
+
+.kdoJsem {
+  text-align: center;
+  font-size: 1.5rem;
 }
