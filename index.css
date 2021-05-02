@@ -10,17 +10,22 @@ html {
 body {
   color: white;
   background-color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 5rem;
   letter-spacing: 0.5rem;
   text-align: center;
-  margin: 0rem 1rem;
+  margin: 0.5rem 1rem;
 }
 h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+h3 {
   color: white;
   font-size: 1rem;
   margin: 0;
@@ -53,16 +58,16 @@ p {
   text-align: center;
   font-size: 1.5rem;
   font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgb(31, 29, 29);
   margin-top: 0;
+  padding: 1rem;
 }
 
 img {
   display: block;
   border-radius: 50%;
-  margin: auto;
-  padding: 0rem 3rem;
+  margin: 3rem auto;
 }
 button {
   color: white;
@@ -78,6 +83,32 @@ button {
   display: flex;
   justify-content: center;
   margin-left: 3rem;
+}
+.btn_home {
+  position: absolute;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.tym {
+  display: flex;
+  margin: auto;
+  max-width: 20rem;
+}
+.osoba {
+  margin: 2rem;
+  justify-content: center;
+  border: white 2px solid;
+  background-color: rgb(31, 29, 29);
+  border-radius: 3%;
+}
+
+.osoba_foto img {
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
 }
 
 .kdoJsem {
