@@ -1,1 +1,0 @@
-# O-projektu-Zmrz.li
