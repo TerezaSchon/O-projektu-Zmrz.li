@@ -84,21 +84,27 @@ button {
   justify-content: center;
   margin-left: 3rem;
 }
-.btn_home {
-  position: absolute;
+.btn_container {
+  display: flex;
 }
+.btn_home,
+.btn_co {
+  margin: 1rem;
+}
+
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .tym {
   display: flex;
-  margin: auto;
+  margin: 2rem;
   max-width: 20rem;
 }
 .osoba {
-  margin: 2rem;
+  margin: 1rem;
   justify-content: center;
   border: white 2px solid;
   background-color: rgb(31, 29, 29);
